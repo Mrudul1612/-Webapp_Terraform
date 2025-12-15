@@ -22,8 +22,4 @@ This project showcases how to automate Azure infrastructure using **Terraform** 
 - Smooth, zero-downtime releases  
 - Reusable, production-ready IaC workflow  
 
----
 
-## 🌍 URLs
-- **Prod:** https://<app-name>.azurewebsites.net  
-- **Staging:** https://<app-name>-staging.azurewebsites.net  
