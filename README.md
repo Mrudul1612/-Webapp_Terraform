@@ -1,41 +1,29 @@
-# 🚀 Azure Terraform Capstone – Project Summary
+# 🚀 Azure Terraform Capstone – Summary
 
-This project demonstrates **end-to-end Infrastructure as Code (IaC)** using **Terraform** to deploy a **Python Flask web application** on **Azure App Service (Linux)**. It uses **Staging and Production deployment slots** to enable **zero-downtime (Blue-Green) deployments**.
-
----
-
-## 🔧 Project Overview
-- Automated Azure infrastructure provisioning using Terraform
-- Deployed a Python Flask application on Azure App Service (Linux)
-- Configured Staging and Production deployment slots
-- Implemented ZIP-based deployment using Azure CLI
-- Enabled zero-downtime releases via slot swap
+This project showcases how to automate Azure infrastructure using **Terraform** and deploy a **Flask web app** on **Azure App Service (Linux)**. It includes **staging and production slots** to enable **zero-downtime (blue-green) deployments**.
 
 ---
 
-## 🏗 High-Level Architecture
-
-
----
-
-## 🧰 Tech Stack
-- **Cloud:** Microsoft Azure  
-- **IaC:** Terraform  
-- **Backend:** Python (Flask)  
-- **Deployment:** Azure CLI (ZIP Deploy)  
-- **Hosting:** Azure App Service (Linux)  
-- **Strategy:** Blue-Green / Slot Swap  
+## 🔧 Overview
+- Infrastructure provisioning with Terraform  
+- Flask app deployment on Azure App Service  
+- Slot-based blue-green deployment setup  
+- Automated ZIP deployment via Azure CLI  
 
 ---
 
-## 🚀 Key Results
-- Fully automated, repeatable infrastructure setup
-- Zero-downtime application deployments
-- Production-ready Azure App Service configuration
-- Practical DevOps and cloud deployment workflow
+## 🧰 Tech Used
+**Azure**, **Terraform**, **Python (Flask)**, **Azure CLI**, **App Service (Linux)**  
 
 ---
 
-## 🌍 Live Endpoints
-- **Production:** https://<app-name>.azurewebsites.net  
+## ✅ Outcome
+- One-click infrastructure setup  
+- Smooth, zero-downtime releases  
+- Reusable, production-ready IaC workflow  
+
+---
+
+## 🌍 URLs
+- **Prod:** https://<app-name>.azurewebsites.net  
 - **Staging:** https://<app-name>-staging.azurewebsites.net  
